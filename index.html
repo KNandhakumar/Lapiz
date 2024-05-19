@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Your Page Title</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="chartContainer">
+    <input type="number" id="dataInput" placeholder="Enter vanilla">
+    <input type="number" id="dataInput2" placeholder="Enter coffee">
+    <input type="number" id="dataInput3" placeholder="Enter tea">
+    <button onclick="updateChart()">Update</button>
+    <canvas id="myPieChart" width="400" height="400"></canvas>
+  </div>
+  
+  <script src="index.js"></script>
+
+</body>
+</html>

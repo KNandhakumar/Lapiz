@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+
+  #chartContainer {
+    text-align: center;
+  }
+
+  input{
+    width: 200px;
+    height: 30px;
+  }
+
+  button{
+    width: 100px;
+    height: 30px;
+  }
+
+  button:hover{
+    background-color: cyan;
+    color: #ff0000;
+    border-radius: 5px;
+  }
